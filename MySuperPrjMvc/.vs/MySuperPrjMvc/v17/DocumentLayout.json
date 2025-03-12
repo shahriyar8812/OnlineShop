@@ -1,0 +1,521 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DADB8D08-A5AB-4ACC-AC4E-42C4228C0475}|Domain\\Domain.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\domain\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DADB8D08-A5AB-4ACC-AC4E-42C4228C0475}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DADB8D08-A5AB-4ACC-AC4E-42C4228C0475}|Domain\\Domain.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\domain\\entities\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DADB8D08-A5AB-4ACC-AC4E-42C4228C0475}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\views\\admin\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\views\\admin\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\migrations\\20250228120716_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250228120716_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\migrations\\20250227064553_shahinit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250227064553_shahinit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\migrations\\20250227070953_shahinit3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250227070953_shahinit3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\migrations\\20250228110214_imginit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250228110214_imginit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\migrations\\20250228120716_last.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250228120716_last.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\migrations\\20250228093143_useradmin2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250228093143_useradmin2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\migrations\\20250228081443_useradmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250228081443_useradmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\migrations\\20250227070351_shahinit2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250227070351_shahinit2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\deta\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\deta\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DADB8D08-A5AB-4ACC-AC4E-42C4228C0475}|Domain\\Domain.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DADB8D08-A5AB-4ACC-AC4E-42C4228C0475}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\mysuperprjmvc\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8308C412-BB6E-4486-867D-AF0D0F4F7DB5}|MySuperPrjMvc\\MySuperPrjMvc.csproj|solutionrelative:mysuperprjmvc\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|c:\\users\\mmina\\onedrive\\desktop\\onlineshop(mvc)v2\\mysuperprjmvc\\infrastructure\\migrations\\20250309102224_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E112E7B-487C-4DF7-8B6A-EAFDD675DAD8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250309102224_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Admin\\AdminPage.cshtml",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Views\\Admin\\AdminPage.cshtml",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Admin\\AdminPage.cshtml",
+              "RelativeToolTip": "MySuperPrjMvc\\Views\\Admin\\AdminPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T19:04:04.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Domain\\Entities\\ProductModel.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Domain\\Entities\\ProductModel.cs",
+              "RelativeToolTip": "Domain\\Entities\\ProductModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:11:14.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Domain\\Entities\\UserModel.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\UserModel.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Domain\\Entities\\UserModel.cs",
+              "RelativeToolTip": "Domain\\Entities\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T19:00:16.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MySuperPrjMvc\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T19:03:50.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250228120716_last.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250228120716_last.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250228120716_last.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250228120716_last.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250228120716_last.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:20:45.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250227070953_shahinit3.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250227070953_shahinit3.Designer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250227070953_shahinit3.Designer.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250227070953_shahinit3.Designer.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250227070953_shahinit3.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:21:01.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250227064553_shahinit.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250227064553_shahinit.Designer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250227064553_shahinit.Designer.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250227064553_shahinit.Designer.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250227064553_shahinit.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:20:19.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250228110214_imginit.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250228110214_imginit.Designer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250228110214_imginit.Designer.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250228110214_imginit.Designer.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250228110214_imginit.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:20:49.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MySuperPrjMvc\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T19:02:53.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250228120716_last.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250228120716_last.Designer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250228120716_last.Designer.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250228120716_last.Designer.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250228120716_last.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAjwAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:20:28.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250309102224_v2.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250309102224_v2.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250309102224_v2.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250309102224_v2.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250309102224_v2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:22:24.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:20:22.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250228093143_UserAdmin2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250228093143_UserAdmin2.Designer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250228093143_UserAdmin2.Designer.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250228093143_UserAdmin2.Designer.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250228093143_UserAdmin2.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:19:55.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250228081443_UserAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250228081443_UserAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250228081443_UserAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250228081443_UserAdmin.Designer.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250228081443_UserAdmin.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAjwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T09:53:20.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250227070351_shahinit2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250227070351_shahinit2.Designer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250227070351_shahinit2.Designer.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Migrations\\20250227070351_shahinit2.Designer.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250227070351_shahinit2.Designer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T09:52:35.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "MySuperPrjMvc\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwv2wAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:10:34.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MySuperPrjMvc\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:45:56.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Program.cs",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Program.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Program.cs",
+              "RelativeToolTip": "MySuperPrjMvc\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAqwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:19:10.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Services\\ProductService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\ProductService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:36:27.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:34:19.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\deta\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\deta\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Infrastructure\\deta\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\deta\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:34:05.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MySuperPrjMvc\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T19:03:53.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:52:01.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MySuperPrjMvc\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T19:02:52.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "MySuperPrjMvc\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T17:11:51.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "MySuperPrjMvc\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T17:12:53.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "MySuperPrjMvc\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T17:12:29.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "MySuperPrjMvc\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T17:52:40.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MySuperPrjMvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T19:18:25.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MySuperPrjMvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T19:04:29.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "MySuperPrjMvc\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\mmina\\OneDrive\\Desktop\\OnlineShop(MVC)v2\\MySuperPrjMvc\\MySuperPrjMvc\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "MySuperPrjMvc\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-28T18:13:17.537Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
