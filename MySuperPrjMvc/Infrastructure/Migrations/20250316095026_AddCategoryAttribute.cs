@@ -5,24 +5,24 @@
 namespace Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class imginit : Migration
+    public partial class AddCategoryAttribute : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<string>(
-                name: "ImageUrl",
+            migrationBuilder.AddColumn<int>(
+                name: "CategoryAttributeId",
                 table: "Products",
-                type: "nvarchar(max)",
+                type: "int",
                 nullable: false,
-                defaultValue: "");
+                defaultValue: 0);
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "ImageUrl",
+                name: "CategoryAttributeId",
                 table: "Products");
         }
     }

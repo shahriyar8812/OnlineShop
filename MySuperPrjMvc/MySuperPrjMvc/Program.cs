@@ -14,6 +14,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ICategoryAttributeRepository, CategoryAttributeRepository>();
+builder.Services.AddScoped<ICategoryAttributeService, CategoryAttributeService>();
+
 
 builder.Services.AddControllersWithViews();
 

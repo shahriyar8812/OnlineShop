@@ -6,11 +6,15 @@ namespace Domain.Interfaces
 {
     public interface IProductRepository
     {
-        Task<IEnumerable<ProductModel>> GetAllProductsAsync();
-        Task<IEnumerable<ProductModel>> GetProductsByCategoryAsync(ProductCategory category);
-        Task<ProductModel> GetProductByIdAsync(int id);
-        Task AddProductAsync(ProductModel product);
-        Task UpdateProductAsync(ProductModel product);
+        Task<IEnumerable<Product>> GetAllProductsAsync();
+        Task<IEnumerable<Product>> GetProductsByCategoryAsync(int categoryId);
+        Task<Product> GetProductByIdAsync(int id);
+        Task AddProductAsync(Product product);
+        Task UpdateProductAsync(Product product);
         Task DeleteProductAsync(int id);
+        Task<ProductCategoryAttribute> GetProductCategoryAttributeAsync(int productId);
+        Task<ProductCategoryAttribute?> GetProductCategoryAttributeAsync(int productId, int categoryAttributeId);
+        Task UpdateProductCategoryAttributeAsync(ProductCategoryAttribute attribute);
+        Task AddProductCategoryAttributeAsync(ProductCategoryAttribute productCategoryAttribute); // اضافه شده
     }
 }

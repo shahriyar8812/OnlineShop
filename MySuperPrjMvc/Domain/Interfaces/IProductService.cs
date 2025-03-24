@@ -6,11 +6,18 @@ namespace Domain.Interfaces
 {
     public interface IProductService
     {
-        Task<IEnumerable<ProductModel>> GetAllProductsAsync();
-        Task<IEnumerable<ProductModel>> GetProductsByCategoryAsync(ProductCategory category);
-        Task<ProductModel> GetProductByIdAsync(int id);
-        Task AddProductAsync(ProductModel product);
-        Task UpdateProductAsync(ProductModel product);
+        Task<IEnumerable<CategoryAttribute>> GetCategoryAttributesByCategoryIdAsync(int categoryId);
+        Task<IEnumerable<Product>> GetAllProductsAsync();
+        Task<IEnumerable<Product>> GetProductsByCategoryAsync(int categoryId);
+        Task<Product> GetProductByIdAsync(int id);
+        Task AddProductAsync(Product product);
+        Task AddProductCategoryAttributeAsync(ProductCategoryAttribute productCategoryAttribute);
+        Task UpdateProductAsync(Product product);
         Task DeleteProductAsync(int id);
+        Task<IEnumerable<Category>> GetAllCategoriesAsync();
+        Task<ProductCategoryAttribute?> GetProductCategoryAttributeAsync(int productId, int categoryAttributeId);
+        Task UpdateProductCategoryAttributeAsync(ProductCategoryAttribute attribute);
+
+
     }
 }

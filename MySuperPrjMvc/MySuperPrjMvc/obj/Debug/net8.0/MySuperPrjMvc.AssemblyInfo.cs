@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MySuperPrjMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c187ced0df3442b80aaf4d186f5193fb8c56e8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f8dcd7e388891fee57471bc09a3d82f32a7b7b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MySuperPrjMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MySuperPrjMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

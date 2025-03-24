@@ -1,38 +1,120 @@
 ﻿@using Domain.Entities
-@model ProductModel
+@model Product
 
-<h2>تدوین محصولات</h2>
+@{
+    ViewData["Title"] = "ویرایش محصول";
+}
 
-<form asp-action="Edit" method="post">
+<h2>ویرایش محصول</h2>
+
+<form asp-action="Edit" method="post" class="card p-4 shadow-sm">
     <input type="hidden" asp-for="Id" />
-    <div class="form-group">
-        <label asp-for="Title" class="control-label"></label>
+
+    <div class="form-group mb-3">
+        <label asp-for="Title" class="form-label fw-bold">عنوان</label>
         <input asp-for="Title" class="form-control" />
-        <span asp-validation-for="Title" class="text-danger">عنوان</span>
+        <span asp-validation-for="Title" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <label asp-for="Code" class="control-label"></label>
+
+    <div class="form-group mb-3">
+        <label asp-for="Code" class="form-label fw-bold">کد محصول</label>
         <input asp-for="Code" class="form-control" />
-        <span asp-validation-for="Code" class="text-danger">کد</span>
+        <span asp-validation-for="Code" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <label asp-for="Description" class="control-label"></label>
-        <input asp-for="Description" class="form-control" />
-        <span asp-validation-for="Description" class="text-danger">توضیحات</span>
+
+    <div class="form-group mb-3">
+        <label asp-for="Description" class="form-label fw-bold">توضیحات</label>
+        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <label asp-for="Category" class="control-label"></label>
-        <select asp-for="Category" class="form-control">
-            <option value="1">لباس ها</option>
-            <option value="2">اسباب بازی ها</option>
-            <option value="3">لپ تاپ</option>
-        </select>
-        <span asp-validation-for="Category" class="text-danger"></span>
+
+    <div class="form-group mb-3">
+        <label asp-for="CategoryId" class="form-label fw-bold">دسته‌بندی</label>
+        <select asp-for="CategoryId" class="form-select" asp-items="ViewBag.Categories" onchange="loadCategoryAttributes()"></select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <label asp-for="ImageUrl" class="control-label"></label>
-        <input asp-for="ImageUrl" class="form-control" />
+
+    <div class="form-group mb-3">
+        <label class="form-label fw-bold">تصویر فعلی</label>
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" class="img-thumbnail" style="max-width: 200px;" alt="تصویر فعلی" />
+        }
+        else
+        {
+            <p class="text-muted">تصویری موجود نیست</p>
+        }
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="ImageUrl" class="form-label fw-bold">آدرس تصویر</label>
+        <input asp-for="ImageUrl" class="form-control" placeholder="آدرس تصویر را وارد کنید" />
         <span asp-validation-for="ImageUrl" class="text-danger"></span>
     </div>
-    <button type="submit" class="btn btn-primary">ذخیره تغییرات</button>
+
+    <h3>ویژگی‌ها</h3>
+    <div id="categoryAttributes" class="mb-3">
+        @if (Model != null && Model.ProductCategoryAttributes != null && Model.ProductCategoryAttributes.Any())
+        {
+            @foreach (var attr in Model.ProductCategoryAttributes.Select((value, index) => new { value, index }))
+            {
+                var attrName = ViewBag.CategoryAttributes != null && ((Dictionary<int, string>)ViewBag.CategoryAttributes).ContainsKey(attr.value.CategoryAttributeId)
+                ? ((Dictionary<int, string>)ViewBag.CategoryAttributes)[attr.value.CategoryAttributeId]
+                : $"ویژگی (ID: {attr.value.CategoryAttributeId})";
+                <div class="form-group mb-2">
+                    <input type="hidden" name="ProductCategoryAttributes[@attr.index].Id" value="@attr.value.Id" />
+                    <input type="hidden" name="ProductCategoryAttributes[@attr.index].ProductId" value="@Model.Id" />
+                    <input type="hidden" name="ProductCategoryAttributes[@attr.index].CategoryAttributeId" value="@attr.value.CategoryAttributeId" />
+                    <label class="form-label fw-bold">@attrName</label>
+                    <input name="ProductCategoryAttributes[@attr.index].Value" value="@attr.value.Value" class="form-control" />
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-muted">هیچ ویژگی‌ای برای این محصول ثبت نشده.</p>
+        }
+    </div>
+
+    <div class="form-group d-flex gap-2">
+        <button type="submit" class="btn btn-primary">ذخیره تغییرات</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">لغو</a>
+    </div>
 </form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        const existingAttributes = @Html.Raw(Json.Serialize(Model != null && Model.ProductCategoryAttributes != null
+        ? Model.ProductCategoryAttributes.Select(a => new { a.Id, a.CategoryAttributeId, a.Value }).ToList()
+        : new List<object>()));
+
+        function loadCategoryAttributes() {
+            var categoryId = document.getElementById("CategoryId").value;
+            if (categoryId) {
+                fetch(`/Product/GetCategoryAttributes?categoryId=${categoryId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        var attributesDiv = document.getElementById("categoryAttributes");
+                        attributesDiv.innerHTML = "";
+                        data.forEach((attribute, index) => {
+                            const existingAttr = existingAttributes.find(attr => attr.categoryAttributeId === attribute.id);
+                            const attrId = existingAttr ? existingAttr.id : 0;
+                            const value = existingAttr ? existingAttr.value : "";
+                            var attributeHtml = `<div class="form-group mb-2">
+                                                    <input type="hidden" name="ProductCategoryAttributes[${index}].Id" value="${attrId}" />
+                                                    <input type="hidden" name="ProductCategoryAttributes[${index}].ProductId" value="@Model.Id" />
+                                                    <input type="hidden" name="ProductCategoryAttributes[${index}].CategoryAttributeId" value="${attribute.id}" />
+                                                    <label class="form-label fw-bold" for="attr-${attribute.id}">${attribute.name}</label>
+                                                    <input type="text" id="attr-${attribute.id}" name="ProductCategoryAttributes[${index}].Value" value="${value}" class="form-control" />
+                                                </div>`;
+                            attributesDiv.innerHTML += attributeHtml;
+                        });
+                    })
+                    .catch(error => console.error("Error loading attributes:", error));
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", () => loadCategoryAttributes());
+    </script>
+}

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class ProductModel
+    public class Product
     {
         public int Id { get; set; }
 
@@ -20,15 +20,17 @@ namespace Domain.Entities
 
         public string Description { get; set; }
 
-        public ProductCategory Category { get; set; }
+        [Required(ErrorMessage = "The Category field is required.")]
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
+
         public string ImageUrl { get; set; }
+
+        public int CategoryAttributeId { get; set; }
+
+        public ICollection<ProductCategoryAttribute> ProductCategoryAttributes { get; set; }
     }
 
-    public enum ProductCategory
-    {
-        Clothes = 1,
-        Toys = 2,
-        Laptop = 3
-    }
+
 }
 

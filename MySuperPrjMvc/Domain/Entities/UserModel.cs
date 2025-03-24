@@ -10,7 +10,7 @@ namespace Domain.Entities
     public class UserModel
     {
         public int Id { get; set; }
-
+        
         [Required]
         public string Username { get; set; }
 
